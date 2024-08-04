@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f4f8;
+}
+
+.editor-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#editor {
+    min-height: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.toolbar {
+    background-color: #f8f9fa;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.btn-tool {
+    margin-right: 5px;
+}
+
+.btn-tool i {
+    font-size: 1.2rem;
+}
+
+.color-picker {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
